@@ -1,11 +1,11 @@
 # Instructions to Pull this Image from Docker Hub
 ```
-sudo docker pull lppier/docker-prophet
+sudo docker pull eracle/docker-prophet-coiled
 ```
 Run the console within the container. 
 
 ```
-sudo docker run -it lppier/docker-prophet /bin/bash
+sudo docker run -it eracle/docker-prophet-coiled /bin/bash
 ```
 
 You will end up at the command prompt inside the prophet docker container.
@@ -19,7 +19,7 @@ will run the example at the Prophet Quickstart Page : https://facebook.github.io
 
 # Instructions to Build and Run this Image
 ```
-sudo docker build --tag=prophet .
+sudo docker build --tag=docker-prophet-coiled .
 ```
 This will build a docker image that when launched will run in the background. 
 You can modify the Dockerfile to include the libraries as you wish. 
